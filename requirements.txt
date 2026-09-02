@@ -1,0 +1,16 @@
+# Requêtes HTTP vers l'API GitHub
+requests>=2.31.0
+
+# Construction de la CLI (choisis argparse natif ou typer/click ; typer est très ergonomique)
+typer>=0.9.0
+
+# Affichage soigné en console (tableaux, couleurs)
+rich>=13.0.0
+
+# Gestion des variables d'environnement (PAT GitHub)
+python-dotenv>=1.0.0
+
+# Outils de tests & simulation d'API
+pytest>=8.0.0
+pytest-mock>=3.12.0
+responses>=0.25.0
