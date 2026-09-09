@@ -1,7 +1,7 @@
 # Requêtes HTTP vers l'API GitHub
 requests>=2.31.0
 
-# Construction de la CLI (choisis argparse natif ou typer/click ; typer est très ergonomique)
+# Construction de la CLI (argparse natif ou typer/click ; typer est très ergonomique)
 typer>=0.9.0
 
 # Affichage soigné en console (tableaux, couleurs)
